@@ -122,7 +122,7 @@ async function run() {
 
 
 
-        // Add new product 
+        // Add new product to database
 
         app.post("/addProducts", async (req, res) => {
             console.log(req.body);
